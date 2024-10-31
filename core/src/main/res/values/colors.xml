@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue_default">#3F51B5</color>
+    <color name="blue">#ff59a9ff</color>
+    <color name="orange">#ffff900d</color>
+    <color name="bottom_background_color">#ffc4c2bc</color>
+
+    <color name="crop_preview">#2B2B2B</color>
+    <color name="transparent_grey">#77000000</color>
+
+    <color name="polygonViewCircleStrokeColor">#ff59a9ff</color>
+    <color name="polygonViewCircleBackground">#FFFFFF</color>
+
+    <color name="colorPrimary">#455EA5</color>
+    <color name="colorPrimaryDark">#2B3489</color>
+    <color name="colorAccent">#455EA5</color>
+    <color name="color_statusbar_blue">#4482C3</color>
+    <color name="colorButton">#667DCA</color>
+
+    <color name="background">#F9FAFF</color>
+    <color name="background2">#ECEEF6</color>
+    <color name="background3">#F2F4FA</color>
+
+    <color name="textBlack">#2B2B2B</color>
+    <color name="textHint">#6D6D6D</color>
+    <color name="colorGrey">#6D6D6D</color>
+    <color name="lightGrey">#B9B9B9</color>
+    <color name="colorlightGrey_20">#33B9B9B9</color>
+    <color name="colorLightGrey">#D2D2D2</color>
+    <color name="colorLightGrey2">#C7CADD</color>
+    <color name="colorArrowBack">#676767</color>
+    <color name="colorToolbarTitle">#363636</color>
+
+    <color name="line">#EAEEF3</color>
+    <color name="empty_color">#CACACA</color>
+
+    <color name="blueLabel">#455EA5</color>
+    <color name="redLabel">#F44336</color>
+    <color name="redLabel2">#DC2C18</color>
+    <color name="greenLabel">#6EC500</color>
+    <color name="greenLabel2">#118E43</color>
+    <color name="yellowLabel">#DDA325</color>
+
+    <color name="button">@color/colorPrimary</color>
+    <color name="button_pressed">#B3455EA5</color>
+
+    <color name="button_text_enable">@android:color/white</color>
+    <color name="button_text_disable">#B1B1B1</color>
+
+    <color name="vp_indicator_selected">#DB2C18</color>
+    <color name="vp_indicator">#A2AED2</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhite_20">#33FFFFFF</color>
+    <color name="colorWhite_50">#80FFFFFF</color>
+    <color name="colorWhite_70">#B2FFFFFF</color>
+    <color name="colorWhite_80">#CCFFFFFF</color>
+    <color name="colorBackground">#EEEEEE</color>
+
+    <color name="colorPlaceholder">#81b6b8bd</color>
+
+    <color name="colorTextLoyalty1">#666666</color>
+    <color name="colorTextLoyalty2">#676767</color>
+    <color name="colorTextLoyalty3">#8F8F8F</color>
+    <color name="colorTextLoyalty4">#B9B9B9</color>
+    <color name="colorTextLoyaltyLine">#C4C4C4</color>
+    <color name="colorBlueLoyalty">#9DA6F8</color>
+
+    <color name="colorSalomie_30">#4DFFE484</color>
+    <color name="yellow">#FFD803</color>
+    <color name="colorGold">#C69320</color>
+    <color name="colorDiamond">#01D0FB</color>
+    <color name="colorSilver">#676767</color>
+    <color name="colorSilver_30">#4D676767</color>
+    <color name="colorPlatinum">#2D2D2D</color>
+    <color name="colorSilverMedium">#4B4B4B</color>
+
+    <color name="text_red">#DC2C18</color>
+    <color name="colorBlack_10">#1A000000</color>
+    <color name="colorBlack_20">#33000000</color>
+    <color name="colorBlack_30">#4D000000</color>
+
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorTransparent_30">#4D000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGondola">#363636</color>
+    <color name="colorGondola_70">#B2363636</color>
+    <color name="colorGondola_30">#4D363636</color>
+    <color name="colorMortar">#595454</color>
+    <color name="colorBrightGray">#EFEFEF</color>
+    <color name="colorDimGray">#727272</color>
+    <color name="colorDimGray_00">#00727272</color>
+    <color name="colorDimGray_10">#16727272</color>
+    <color name="colorDimGray_20">#32727272</color>
+    <color name="colorDimGray_30">#4D727272</color>
+    <color name="colorDimGray_70">#B2727272</color>
+    <color name="colorDimGrayAlt">#696969</color>
+    <color name="colorSilver_">#B9B9B9</color>
+    <color name="colorSilver2">#C2C2C2</color>
+    <color name="colorSilver3">#4D636363</color>
+    <color name="colorSilver4">#636363</color>
+    <color name="colorGhost">#C7C7CC</color>
+    <color name="colorGainsboro">#E8E8E8</color>
+    <color name="colorGainsboro_1">#DDDDDD</color>
+    <color name="colorCuriousBlue">#4482C3</color>
+    <color name="colorHavelockBlue">#667DCA</color>
+    <color name="colorRoyalBlue">#4d6cdb</color>
+    <color name="colorPortage">#7881D4</color>
+    <color name="colorLightSkyBlue">#9DA6F8</color>
+    <color name="colorLightSkyBlue_10">#1A9DA6F8</color>
+    <color name="colorLightSkyBlue_20">#339DA6F8</color>
+    <color name="colorLightSkyBlue_30">#4D9DA6F8</color>
+    <color name="colorLotion">#FAFAFA</color>
+    <color name="colorTabMenuHome">#339DA6F8</color>
+    <color name="colorPictonBlue">#52A8D3</color>
+    <color name="colorBabyBlue">#49F4FF</color>
+    <color name="colorBabyBlue_30">#4D49F4FF</color>
+    <color name="colorPortage_20">#337881D4</color>
+    <color name="colorLavenderBlue">#CED3FC</color>
+    <color name="colorGhostWhite">#F9FAFF</color>
+    <color name="colorHawkesBlue">#ECEEF6</color>
+    <color name="colorPattensBlue">#F2F4FA</color>
+    <color name="colorWhiteSmoke">#EAEAEA</color>
+    <color name="colorWhite_">#FAFAFA</color>
+    <color name="colorWhiteSmoke_">#ECECEC</color>
+    <color name="colorWhite_30">#4DFFFFFF</color>
+    <color name="colorLavender">#EEF3FD</color>
+    <color name="colorSolitude">#EFEFF4</color>
+    <color name="colorCitrus">#6EC500</color>
+    <color name="colorHarleyDavidsonOrange">#DC2C18</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorRedOrange">#FF3B30</color>
+    <color name="colorRed2">#F76F60</color>
+    <color name="colorGorse">#FFE13E</color>
+    <color name="colorGoldenPoppy">#F2BD00</color>
+    <color name="colorOldLace">#FEF8EA</color>
+    <color name="colorAmethyst">#8F67D0</color>
+    <color name="colorGrau">#979797</color>
+
+    <color name="rajah">#f6b160</color>
+    <color name="rajah_10">#16f6b160</color>
+    <color name="rajah_20">#32f6b160</color>
+    <color name="bittersweet">#f66f60</color>
+    <color name="cornFlowerBlue">#7b87f3</color>
+    <color name="cornFlowerBlue_10">#167b87f3</color>
+    <color name="granite_gray">#636363</color>
+    <color name="gray">#8a8a8a</color>
+    <color name="lightOrange">#F6B160</color>
+    <color name="lightSeaGreen">#26b69c</color>
+    <color name="whiteLilac">#ebedf8</color>
+</resources>

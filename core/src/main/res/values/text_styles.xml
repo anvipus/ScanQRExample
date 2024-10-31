@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PinField" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">38dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:hint">@string/blank</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/bg_pin</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
+    <style name="PinFieldV2" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:hint">@string/blank</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
+    <style name="TexField" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_et</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:fontFamily">@font/avenir_light</item>
+        <item name="android:paddingTop">@dimen/padding_top</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextViewTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/avenir_light</item>
+        <item name="android:layout_marginStart">@dimen/margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/margin_end</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/avenir_light</item>
+        <item name="android:layout_marginStart">@dimen/margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/margin_end</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+    </style>
+
+    <style name="TextViewNominalProduct" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorGondola</item>
+    </style>
+
+    <style name="TextViewProductDesc" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/inter_light</item>
+        <item name="android:textSize">@dimen/textview_size_12</item>
+        <item name="android:textColor">@color/colorGondola</item>
+    </style>
+
+    <style name="TextViewNominalProductSelect" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/avenir_light</item>
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewProductDescSelect" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/avenir_light</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="AccountLabel" parent="Widget.AppCompat.TextView">
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/textBlack</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+    <style name="TextInputError">
+        <item name="android:textColor">@color/redLabel</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Paragraph1Black" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/x_big_text</item>
+        <item name="android:textColor">@color/colorToolbarTitle</item>
+    </style>
+
+    <style name="Paragraph2Black" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textColor">@color/colorToolbarTitle</item>
+    </style>
+
+    <style name="Paragraph3Black" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/colorToolbarTitle</item>
+    </style>
+
+    <style name="Paragraph4Black" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/textview_size_12</item>
+        <item name="android:textColor">@color/colorToolbarTitle</item>
+    </style>
+
+    <style name="Paragraph1BlackBold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/x_big_text</item>
+        <item name="android:textColor">@color/colorToolbarTitle</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Paragraph3BlackBold" parent="android:TextAppearance">
+       <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/colorToolbarTitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontWeight">600</item>
+    </style>
+
+    <style name="Paragraph4BlackBold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/textview_size_12</item>
+        <item name="android:textColor">@color/colorToolbarTitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontWeight">600</item>
+    </style>
+
+    <style name="Paragraph1Grey" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/x_big_text</item>
+        <item name="android:textColor">@color/lightGrey</item>
+    </style>
+
+    <style name="Paragraph2Grey" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textColor">@color/lightGrey</item>
+    </style>
+
+    <style name="Paragraph3Grey" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/lightGrey</item>
+    </style>
+
+    <style name="Paragraph4Grey" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/textview_size_12</item>
+        <item name="android:textColor">@color/lightGrey</item>
+    </style>
+
+    <style name="Paragraph3DimGray" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/colorDimGray</item>
+    </style>
+
+    <style name="Paragraph4DimGray" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/textview_size_12</item>
+        <item name="android:textColor">@color/colorDimGray</item>
+    </style>
+
+    <style name="Paragraph3Blue" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/colorBlueLoyalty</item>
+    </style>
+
+    <style name="Paragraph3BlueBold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/colorBlueLoyalty</item>
+    </style>
+
+    <style name="Paragraph3RoyalBlueBold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/colorRoyalBlue</item>
+    </style>
+
+    <style name="Paragraph4BlueBold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/textview_size_12</item>
+        <item name="android:textColor">@color/colorBlueLoyalty</item>
+    </style>
+
+    <style name="Paragraph4GreenBold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/textview_size_12</item>
+        <item name="android:textColor">@color/greenLabel</item>
+    </style>
+
+    <style name="Paragraph3RedBold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter_heavy</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/text_red</item>
+    </style>
+
+    <style name="Paragraph3White" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/textview_size</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="fontWeight">600</item>
+    </style>
+
+    <style name="Paragraph4White" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/textview_size_12</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="fontWeight">600</item>
+    </style>
+
+    <style name="Paragraph1WhiteBold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/x_big_text</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Paragraph4WhiteBold" parent="android:TextAppearance">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/textview_size_12</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="fontWeight">600</item>
+    </style>
+
+    <style name="TextViewRegularFont" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="TextViewSemiBoldFont" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+    </style>
+
+    <style name="TextViewBoldFont" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/inter_heavy</item>
+    </style>
+
+    <style name="MaterialTextViewRegularFont" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="MaterialTextViewSemiBoldFont" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+    </style>
+
+    <style name="MaterialTextViewBoldFont" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/inter_heavy</item>
+    </style>
+
+    <style name="EditTextRegularFont" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:background">@drawable/bg_et</item>
+    </style>
+
+    <style name="EditTextSemiBoldFont" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:background">@drawable/bg_et</item>
+    </style>
+
+    <style name="EditTextBoldFont" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/inter_heavy</item>
+        <item name="android:background">@drawable/bg_et</item>
+    </style>
+
+    <style name="EditTextRegularFont2" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="EditTextSemiBoldFont2" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+    </style>
+
+    <style name="EditTextBoldFont2" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/inter_heavy</item>
+    </style>
+
+    <style name="TexFieldV2" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_et</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:paddingTop">@dimen/padding_top</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

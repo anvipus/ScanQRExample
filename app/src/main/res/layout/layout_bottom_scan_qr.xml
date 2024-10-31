@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorTransparent">
+        <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/ic_bg_bottom_layout"/>
+
+        <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_payment_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/label_bottom_scan_qr"
+                android:textSize="@dimen/textview_size"
+                android:layout_marginTop="32dp"
+                android:textColor="@color/colorGondola"
+                style="@style/MaterialTextViewSemiBoldFont"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tv_payment_balance"
+                app:layout_constraintStart_toStartOf="parent"
+        />
+
+        <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_payment_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                style="@style/MaterialTextViewRegularFont"
+                android:textColor="@color/colorDimGray"
+                app:layout_constraintTop_toBottomOf="@id/tv_payment_method"
+                app:layout_constraintStart_toStartOf="@id/tv_payment_method"
+                android:text="@string/label_bottom_scan_qr_2"
+        />
+
+        <Button
+                android:id="@+id/btn_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="22dp"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="5dp"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:text="@string/label_buka_gallery"
+                android:textSize="@dimen/textview_size_12"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:fontFamily="@font/inter_semibold"
+                android:background="@drawable/btn_rounded_light_sky_blue_20"
+                android:stateListAnimator="@null"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+

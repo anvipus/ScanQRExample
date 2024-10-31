@@ -1,0 +1,76 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="scanPadding">16dp</dimen>
+    <dimen name="polygonViewCircleWidth">32dp</dimen>
+    <dimen name="polygonViewStrokeWidth">32dp</dimen>
+    <!-- ScanPadding must be half of polygonViewCircleWidth -->
+
+    <dimen name="bottom_bar_padding">15dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_v2">20dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="padding_top">16dp</dimen>
+    <dimen name="padding_bottom">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+
+    <dimen name="x_small_margin">2dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+    <dimen name="margin_top_v2">20dp</dimen>
+    <dimen name="big_margin_top">24dp</dimen>
+    <dimen name="margin_bottom">8dp</dimen>
+    <dimen name="margin_bottom_v2">20dp</dimen>
+    <dimen name="margin_start">16dp</dimen>
+    <dimen name="margin_end">16dp</dimen>
+    <dimen name="margin">5dp</dimen>
+
+    <dimen name="line_size">2dp</dimen>
+
+    <dimen name="x_big_text">18sp</dimen>
+    <dimen name="title_size">16sp</dimen>
+    <dimen name="textview_size">14sp</dimen>
+    <dimen name="textview_size_12">12sp</dimen>
+    <dimen name="small_text">10sp</dimen>
+
+    <dimen name="border_size">3dp</dimen>
+    <dimen name="border_radius_size">6dp</dimen>
+    <dimen name="border_radius_size_email">8dp</dimen>
+    <dimen name="border_radius_default">8dp</dimen>
+    <dimen name="border_radius_size_loyalty">20dp</dimen>
+    <dimen name="border_radius_size_history">24dp</dimen>
+
+    <dimen name="voucher_game_border_size">80dp</dimen>
+    <dimen name="filter_membership_size">40dp</dimen>
+
+    <dimen name="small_vertical_margin">50dp</dimen>
+    <dimen name="normal_vertical_margin">100dp</dimen>
+
+    //WIDGETS' SIZES
+    <dimen name="image_size">100dp</dimen>
+    <dimen name="small_icon_size">24dp</dimen>
+    <dimen name="normal_icon_size">36dp</dimen>
+    <dimen name="big_icon_size">48dp</dimen>
+    <dimen name="divider_size">1dp</dimen>
+    <dimen name="custom_tab_height">42dp</dimen>
+
+    //UPGRADE DOC
+    <dimen name="upgrade_image_width">82dp</dimen>
+    <dimen name="upgrade_image_height">64dp</dimen>
+    <dimen name="upgrade_image_capture_camera">54dp</dimen>
+    <dimen name="upgrade_image_confirm_height">250dp</dimen>
+
+    //ONBOARDING
+    <dimen name="onboarding_margin_top">61dp</dimen>
+    <dimen name="onboarding_margin_bottom">30dp</dimen>
+    <dimen name="onboarding_margin_title_bottom">10dp</dimen>
+    <dimen name="onboarding_margin_title_top">24dp</dimen>
+
+    //PLN
+    <dimen name="pln_normal_image_size">40dp</dimen>
+    <dimen name="pln_medium_image_size">50dp</dimen>
+    <dimen name="pln_margin_top_payment_icon">30dp</dimen>
+</resources>

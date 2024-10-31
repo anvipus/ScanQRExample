@@ -1,0 +1,179 @@
+[versions]
+agp = "8.5.2"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.4"
+lifecycle = "2.8.4"
+coil-gif = "2.1.0"
+coil-compose = "2.1.0"
+activityCompose = "1.9.1"
+composeBom = "2024.08.00"
+appcompat = "1.7.0"
+material = "1.12.0"
+retrofit = "2.11.0"
+crashlytics-plugins = "3.0.2"
+firebase-bom = "33.2.0"
+google-gms = "4.4.2"
+navigation = "2.7.7"
+navigation-compose = "2.7.7"
+moshi_con = "2.8.1"
+perf-plugin = "1.4.2"
+distribution-plugin = "5.0.0"
+recycler-view = "1.3.2"
+viewpager = "1.1.0"
+glide = "4.16.0"
+okhttp = "4.10.0"
+gson = "2.10.1"
+dagger = "2.52"
+room = "2.6.1"
+moshi = "1.15.1"
+biometric = "1.1.0"
+lottie = "5.2.0"
+shimmer = "0.5.0"
+constraint = "2.1.4"
+camerax = "1.3.4"
+barcode_scanning_mlkit = "17.3.0"
+lottie-compose = "5.2.0"
+timber = "5.0.1"
+worker = "2.9.1"
+paging = "3.3.2"
+security_crypto = "1.1.0-alpha06"
+jwt_decode = "2.0.2"
+play-services-auth = "21.2.0"
+play-services-auth-api-phone = "18.1.0"
+play-services-location = "21.3.0"
+chucker = "3.5.2"
+zxing = "3.4.1"
+journey-zxing = "4.3.0"
+ksp = "1.9.0-1.0.13"
+compile = "34"
+target = "34"
+minimum = "24"
+version-code = "1"
+version-name = "1.0.0"
+accompanist-flowlayout = "0.17.0"
+accompanist-permissions = "0.19.0"
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-common-java8 = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycle" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraint = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraint" }
+androidx-worker = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "worker" }
+androidx-paging = { group = "androidx.paging", name = "paging-runtime-ktx", version.ref = "paging" }
+androidx-security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "security_crypto" }
+
+navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigation" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
+accompanist-flowlayout = { group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "accompanist-flowlayout" }
+accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist-permissions" }
+
+recycler-view = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recycler-view" }
+
+viewpager = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewpager" }
+
+journey-zxing = { group = "com.journeyapps", name = "zxing-android-embedded", version.ref = "journey-zxing" }
+
+lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie-compose" }
+
+coil-gif = { group = "io.coil-kt", name = "coil-gif", version.ref = "coil-gif" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil-compose" }
+
+chucker-debug = { group = "com.github.chuckerteam.chucker", name = "library", version.ref = "chucker" }
+chucker-release = { group = "com.github.chuckerteam.chucker", name = "library-no-op", version.ref = "chucker" }
+
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "moshi_con" }
+
+moshi = { group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshi" }
+moshi-codegen = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
+
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp-bom", version.ref = "okhttp" }
+okhttp-module = { module = "com.squareup.okhttp3:okhttp" }
+okhttp-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor" }
+
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-okhttp3 = { group = "com.github.bumptech.glide", name = "okhttp3-integration", version.ref = "glide" }
+
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+
+dagger = { group = "com.google.dagger", name = "dagger", version.ref = "dagger" }
+dagger-android = { group = "com.google.dagger", name = "dagger-android", version.ref = "dagger" }
+dagger-android-support = { group = "com.google.dagger", name = "dagger-android-support", version.ref = "dagger" }
+
+room = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+
+shimmer = { group = "com.facebook.shimmer", name = "shimmer", version.ref = "shimmer" }
+
+ml-kit-barcode-scanning = { group = "com.google.mlkit", name = "barcode-scanning", version.ref = "barcode_scanning_mlkit" }
+
+jwt-decode = { group = "com.auth0.android", name = "jwtdecode", version.ref = "jwt_decode" }
+
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+
+zxing = { group = "com.google.zxing", name = "core", version.ref = "zxing" }
+
+play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "play-services-auth" }
+play-services-auth-api-phone = { group = "com.google.android.gms", name = "play-services-auth-api-phone", version.ref = "play-services-auth-api-phone" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "play-services-location" }
+
+camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "camerax" }
+camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
+camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
+camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
+
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom" }
+firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics" }
+firebase-crashlytics-ktx = { module = "com.google.firebase:firebase-crashlytics" }
+firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging" }
+firebase-perf-ktx = { module = "com.google.firebase:firebase-perf" }
+firebase-appcheck-playintegrity = { module = "com.google.firebase:firebase-appcheck-playintegrity" }
+firebase-appcheck-debug = { module = "com.google.firebase:firebase-appcheck-debug" }
+firebase-appcheck-ktx = { module = "com.google.firebase:firebase-appcheck-ktx" }
+
+glide-compiler-kapt = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+dagger-compiler-kapt = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger" }
+dagger-android-processor-kapt = { group = "com.google.dagger", name = "dagger-android-processor", version.ref = "dagger" }
+moshi-kotlin-codegen-kapt = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
+room-compiler-kapt = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+lifecycle-common-java8-kapt = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycle" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+jetbrains-kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "crashlytics-plugins" }
+android-gms-plugin = { id = "com.google.gms.google-services", version.ref = "google-gms" }
+navigation-plugin = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation" }
+perf-plugin = { id = "com.google.firebase.firebase-perf", version.ref = "perf-plugin" }
+distribution-plugin = { id = "com.google.firebase.appdistribution", version.ref = "distribution-plugin" }
+devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+

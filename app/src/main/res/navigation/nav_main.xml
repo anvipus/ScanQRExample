@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/fragment_main">
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="com.anvipus.explore.ui.xml.MainFragment"
+        android:label=""
+        tools:layout="@layout/main_fragment">
+        <action
+                android:id="@+id/action_to_scan_qr"
+                app:destination="@id/fragment_scan_qr" />
+        <action
+                android:id="@+id/action_to_scan_qr_compose"
+                app:destination="@id/fragment_scan_qr_compose" />
+    </fragment>
+    <fragment
+            android:id="@+id/fragment_scan_qr"
+            android:name="com.anvipus.explore.ui.xml.scanqr.ScanQrFragment"
+            android:label=""
+            tools:layout="@layout/scan_qr_fragment">
+
+        <action
+                android:id="@+id/action_to_scan_qr_camera"
+                app:destination="@id/fragment_scan_qr_camera" />
+
+        <action
+                android:id="@+id/action_to_scan_qr_camera_zxing"
+                app:destination="@id/fragment_scan_qr_camera_zxing" />
+
+        <action
+                android:id="@+id/action_to_scan_qr_compose"
+                app:destination="@id/fragment_scan_qr_compose" />
+    </fragment>
+    <fragment
+            android:id="@+id/fragment_scan_qr_camera"
+            android:name="com.anvipus.explore.ui.xml.scanqr.ScanQrCameraFragment"
+            android:label=""
+            tools:layout="@layout/scan_qr_camera_fragment">
+
+    </fragment>
+    <fragment
+            android:id="@+id/fragment_scan_qr_camera_zxing"
+            android:name="com.anvipus.explore.ui.xml.scanqr.ScanQrCameraZxingFragment"
+            android:label=""
+            tools:layout="@layout/scan_qr_camera_zxing_fragment">
+
+    </fragment>
+    <fragment
+            android:id="@+id/fragment_scan_qr_compose"
+            android:name="com.anvipus.explore.ui.compose.scanqr.ScanQrComposeFragment"
+            android:label="">
+
+
+    </fragment>
+</navigation>

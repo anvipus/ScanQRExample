@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Explore</string>
+    <string name="label_buka_gallery">Buka Gallery</string>
+    <string name="label_bottom_scan_qr">Gunakan Gambar QRIS</string>
+    <string name="label_bottom_scan_qr_2">Pilih gambar QRIS dari galeri Kamu</string>
+    <string name="lbl_qris_ready">Mendukung</string>
+    <string name="error_scan_failed">Scan gagal, mohon mencoba kembali</string>
+    <string name="error_scan_from_gallery">Maaf gambar tidak dikenali, silakan unggah ulang</string>
+    <string name="title_toolbar_main_screen">Scan Qr Example</string>
+    <string name="title_toolbar_mlkit_screen">Scan Qr With ML Kit</string>
+    <string name="title_toolbar_zxing_screen">Scan Qr With Zxing</string>
+    <string name="title_toolbar_mlkit_compose_screen">Scan Qr ML Kit Compose</string>
+</resources>
