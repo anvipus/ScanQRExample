@@ -1,4 +1,4 @@
-# Android Explore V3
+# ScanQRExampleAndroid
 
 
 
